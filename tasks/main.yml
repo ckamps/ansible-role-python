@@ -1,0 +1,6 @@
+---
+
+- name: Install Python pip 
+  yum:
+    name: python2-pip
+    state: present
